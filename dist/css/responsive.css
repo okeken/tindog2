@@ -1,0 +1,80 @@
+/* desktop screen: 992px;
+laptop screen: 1200px;
+Tablet screen: 768px;
+Mobile screen: 576px; */
+
+/* Service Section Begins to get weired at 1158px */
+
+@media all and (min-width: 1023px) and (max-width: 1158px) {
+  /* .right-services {
+    margin-right: -3rem;
+  }
+
+  .service-bg {
+    transform: translateX(-6rem);
+    background-color: red !important;
+  } */
+
+  body {
+  }
+}
+
+@media all and (max-width: 1158px) {
+  .service-bg {
+    display: none;
+  }
+}
+
+/* Common Mobile Phone Optimization */
+@media all and (max-width: 576px) {
+  .para-blog {
+    padding: 1rem 2rem;
+  }
+  .blog-post-card {
+    margin: 1.5rem auto !important;
+  }
+
+  .box1 {
+    padding-left: 2rem !important;
+    padding-right: 1rem;
+  }
+}
+
+/* Iphone 5 Optimization (Very Small Screen Width) */
+@media all and (max-width: 330px) {
+  .box2 {
+    width: 87%;
+  }
+
+  .box2 .btn {
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 0 8.5rem;
+    text-align: center;
+  }
+
+  .copyright {
+    padding: 1rem 2rem !important;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 767px) {
+  .blog-post-card {
+    margin: 1.5rem auto !important;
+  }
+
+  .contact-section {
+    padding: 1.4rem 0rem !important;
+  }
+
+  .box1 {
+    max-width: 22rem !important;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  .blog-post-card {
+    margin: 1.5rem auto !important;
+  }
+}
